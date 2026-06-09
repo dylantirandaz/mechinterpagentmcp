@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model weights / captured activations / generated evidence (large, regenerable)
+*.npz
+runs/
+.cache/
+*.safetensors
+*.bin
+
+# Logs and scratch files
+*.log
+_*.py
+_*.log
+
+# Environment / secret fixtures (synthetic decoys; kept out of the public repo)
+.env
+*.env
+
+# Tooling / editor config
+.claude/
+CLAUDE.md
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
